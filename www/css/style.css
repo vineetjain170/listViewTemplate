@@ -1,0 +1,78 @@
+/* Empty. Add your own CSS if you like */
+p{
+
+    font-family:arial;
+    margin-left: 10px;
+
+}
+#mainHeader{
+
+    height:70px;
+
+}
+#filterButton{
+
+    position: absolute; 
+    right: 0; 
+    margin-right:10px; 
+    margin-top:15px;
+
+}
+#searchButton{
+
+    height: 35px;
+    width: 40px;
+    margin-right:50px; 
+    margin-top:15px;
+
+}
+.hSItemImg{
+
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+
+}
+.hSItemPara{
+
+     display: block;
+     text-align: center;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     max-width: 50px;
+
+}
+#horizontalScroll{
+
+    overflow: auto; 
+    white-space: nowrap;
+
+}
+.horizontalScrollItem{
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.productImages{
+
+    width:120px;
+    height:200px;
+
+}
+.productImgHolder{
+
+    display: inline-block;
+    width:120px;
+
+}
+.productDescHolder{
+
+    display: inline-block;
+    vertical-align:top;
+    width: calc(100% - 130px);;
+
+}
